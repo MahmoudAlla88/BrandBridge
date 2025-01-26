@@ -1,0 +1,310 @@
+/* start header */
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.login-link {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    justify-content: end;
+}
+.login-link:hover {
+    text-decoration: underline;
+}
+.login-icon {
+    margin-right: 5px;
+    padding-left: 10px;
+}
+/* end header */
+body {
+    /* background-color: #001f3f; */
+    color: #ffffff; 
+}
+.pricing-section {
+    padding: 60px 0;
+}
+.pricing-card {
+    background-color: #ffffff;
+    color: #001f3f;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.pricing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #003d80;
+}
+/* Influencers Page */
+.influencers {
+    background-color: #f9f9f9; /* Light background */
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.influencers h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #001F54; /* Dark blue text */
+}
+
+/* Filter Bar */
+.filter-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filter-bar input,
+.filter-bar select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Influencers Container */
+.influencers-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #001F54; /* Dark blue text */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+/* Influencers Grid */
+.influencers-grid {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.influencer-card {
+    background-color: #ffffff; /* White background for cards */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33.33% - 40px); /* 3 cards per row */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.influencer-card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.influencer-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    object-fit: cover; /* Ensures the image fits well */
+}
+
+.influencer-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.influencer-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .influencer-card {
+        width: calc(50% - 40px); /* 2 cards per row on tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .influencers-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .influencer-card {
+        width: 100%; /* 1 card per row on mobile */
+    }
+
+    .influencers h2 {
+        font-size: 28px; /* Smaller font size for mobile */
+    }
+
+    .influencer-card h3 {
+        font-size: 20px; /* Smaller font size for mobile */
+    }
+
+    .influencer-card p {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+}
+/* start Footer Section */
+.footer {
+    background-color: #001F54; /* Dark blue background */
+    color: #ffffff; /* White text */
+    padding: 50px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ffffff; /* White text for headings */
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+    color: #e0e0e0; /* Light gray text for content */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li i {
+    margin-right: 10px;
+    color: #ffffff; /* White icons */
+}
+
+.footer-section a {
+    color: #e0e0e0; /* Light gray text for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #ffffff; /* White text on hover */
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #ffffff; /* White icons */
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #003366; /* Light blue border */
+    margin-top: 20px;
+    font-size: 14px;
+    color: #e0e0e0; /* Light gray text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 30px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+/* end Footer Section */

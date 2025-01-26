@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Dashboard.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Dashboard Page -->
+<section class="dashboard">
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <img src="https://via.placeholder.com/50" alt="Logo">
+            <h2>Dashboard</h2>
+        </div>
+        <ul class="menu">
+            <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fas fa-chart-line"></i> Analytics</a></li>
+            <li><a href="#"><i class="fas fa-users"></i> Influencers</a></li>
+            <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+            <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header -->
+        <div class="header">
+            <h1>Welcome, John Doe</h1>
+            <div class="user-profile">
+                <img src="https://via.placeholder.com/40" alt="User Image">
+                <span>John Doe</span>
+            </div>
+        </div>
+
+        <!-- Stats Cards -->
+        <div class="stats-cards">
+            <div class="card">
+                <i class="fas fa-users"></i>
+                <h3>Total Influencers</h3>
+                <p>1,234</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Total Campaigns</h3>
+                <p>56</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-dollar-sign"></i>
+                <h3>Total Revenue</h3>
+                <p>$12,345</p>
+            </div>
+        </div>
+
+        <!-- Recent Activity -->
+        <div class="recent-activity">
+            <h2>Recent Activity</h2>
+            <ul>
+                <li>New campaign launched: "Summer Fashion 2023".</li>
+                <li>Influencer "Jane Smith" joined the platform.</li>
+                <li>Campaign "Tech Gadgets 2023" completed successfully.</li>
+            </ul>
+        </div>
+
+        <!-- Campaigns Table -->
+        <div class="campaigns-table">
+            <h2>Your Campaigns</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Campaign Name</th>
+                        <th>Status</th>
+                        <th>Influencers</th>
+                        <th>Budget</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Summer Fashion 2023</td>
+                        <td><span class="status active">Active</span></td>
+                        <td>10</td>
+                        <td>$5,000</td>
+                    </tr>
+                    <tr>
+                        <td>Tech Gadgets 2023</td>
+                        <td><span class="status completed">Completed</span></td>
+                        <td>5</td>
+                        <td>$3,000</td>
+                    </tr>
+                    <tr>
+                        <td>Fitness Challenge 2023</td>
+                        <td><span class="status pending">Pending</span></td>
+                        <td>8</td>
+                        <td>$4,500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="influncer.css" rel="stylesheet">
+</head>
+<body>
+  <!--start header -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">BrandBridge</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Companies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Influencer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <a href="#" class="login-link">
+            <i class="fas fa-sign-in-alt login-icon"></i> Login
+          </a>
+      </div>
+    </div>
+  </nav>
+<!-- end header -->
+<!-- Influencers Page -->
+<section class="influencers">
+    <h2>Our Influencers</h2>
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+        <input type="text" id="search" placeholder="Search by name...">
+        <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="fashion">Fashion</option>
+            <option value="beauty">Beauty</option>
+            <option value="fitness">Fitness</option>
+            <option value="travel">Travel</option>
+            <option value="tech">Tech</option>
+            <option value="food">Food</option>
+        </select>
+    </div>
+    <!-- Sidebar & Influencers Grid -->
+    <div class="influencers-container">
+        <!-- Sidebar for Categories -->
+        <div class="sidebar">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#" data-category="all">All</a></li>
+                <li><a href="#" data-category="fashion">Fashion</a></li>
+                <li><a href="#" data-category="beauty">Beauty</a></li>
+                <li><a href="#" data-category="fitness">Fitness</a></li>
+                <li><a href="#" data-category="travel">Travel</a></li>
+                <li><a href="#" data-category="tech">Tech</a></li>
+                <li><a href="#" data-category="food">Food</a></li>
+            </ul>
+        </div>
+        <!-- Influencers Grid -->
+        <div class="influencers-grid">
+            <!-- Influencer 1 -->
+            <div class="influencer-card" data-category="fashion">
+                <img src="https://via.placeholder.com/150" alt="Influencer 1">
+                <h3>John Doe</h3>
+                <p>Expertise: Fashion</p>
+                <p>Followers: 1M+</p>
+            </div>
+            <!-- Influencer 2 -->
+            <div class="influencer-card" data-category="beauty">
+                <img src="https://via.placeholder.com/150" alt="Influencer 2">
+                <h3>Jane Smith</h3>
+                <p>Expertise: Beauty</p>
+                <p>Followers: 500K+</p>
+            </div>
+            <!-- Influencer 3 -->
+            <div class="influencer-card" data-category="fitness">
+                <img src="https://via.placeholder.com/150" alt="Influencer 3">
+                <h3>Mike Johnson</h3>
+                <p>Expertise: Fitness</p>
+                <p>Followers: 2M+</p>
+            </div>
+            <!-- Influencer 4 -->
+            <div class="influencer-card" data-category="travel">
+                <img src="https://via.placeholder.com/150" alt="Influencer 4">
+                <h3>Sarah Lee</h3>
+                <p>Expertise: Travel</p>
+                <p>Followers: 800K+</p>
+            </div>
+            <!-- Influencer 5 -->
+            <div class="influencer-card" data-category="tech">
+                <img src="https://via.placeholder.com/150" alt="Influencer 5">
+                <h3>David Wilson</h3>
+                <p>Expertise: Tech</p>
+                <p>Followers: 1.5M+</p>
+            </div>
+            <!-- Influencer 6 -->
+            <div class="influencer-card" data-category="food">
+                <img src="https://via.placeholder.com/150" alt="Influencer 6">
+                <h3>Laura Martinez</h3>
+                <p>Expertise: Food</p>
+                <p>Followers: 700K+</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--start Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+        <!-- About Section -->
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>A platform dedicated to connecting businesses with influencers to promote products and services easily and efficiently.</p>
+        </div>
+        <!-- Quick Links -->
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Influencers</a></li>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Contact Information -->
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country</li>
+                <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                <li><i class="fas fa-envelope"></i> info@example.com</li>
+            </ul>
+        </div>
+        <!-- Social Media -->
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </div>
+</footer>
+<!--end Footer Section -->
+<script>
+    // JavaScript for Filtering
+document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('search');
+    const categoryFilter = document.getElementById('category-filter');
+    const categoryLinks = document.querySelectorAll('.sidebar ul li a');
+    const influencerCards = document.querySelectorAll('.influencer-card');
+
+    // Filter by search and category
+    function filterInfluencers() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const selectedCategory = categoryFilter.value;
+
+        influencerCards.forEach(card => {
+            const name = card.querySelector('h3').textContent.toLowerCase();
+            const category = card.getAttribute('data-category');
+
+            const matchesSearch = name.includes(searchTerm);
+            const matchesCategory = selectedCategory === 'all' || category === selectedCategory;
+
+            if (matchesSearch && matchesCategory) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    // Event listeners
+    searchInput.addEventListener('input', filterInfluencers);
+    categoryFilter.addEventListener('change', filterInfluencers);
+
+    // Filter by sidebar category links
+    categoryLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const selectedCategory = this.getAttribute('data-category');
+            categoryFilter.value = selectedCategory;
+            filterInfluencers();
+        });
+    });
+});
+ </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

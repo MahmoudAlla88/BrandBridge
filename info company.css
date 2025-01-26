@@ -1,0 +1,186 @@
+/* Company Info Page */
+.company-info {
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.company-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #001F54; /* Dark blue text */
+}
+
+.company-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Company Info Form */
+.company-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.company-form .form-group {
+    margin-bottom: 20px;
+}
+
+.company-form label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.company-form input,
+.company-form select,
+.company-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.company-form textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.company-form button {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.company-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Influencer Suggestions */
+.influencer-suggestions {
+    display: none; /* Hidden by default */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.influencer-suggestions h2 {
+    font-size: 24px;
+    color: #001F54; /* Dark blue text */
+    margin-bottom: 20px;
+}
+
+.suggestions-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.influencer-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33.33% - 40px); /* 3 cards per row */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.influencer-card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.influencer-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.influencer-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.influencer-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.influencer-card button {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.influencer-card button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .influencer-card {
+        width: calc(50% - 40px); /* 2 cards per row on tablets */
+    }
+
+    .company-info h1 {
+        font-size: 28px;
+    }
+
+    .company-info p {
+        font-size: 14px;
+    }
+
+    .company-form label {
+        font-size: 14px;
+    }
+
+    .company-form input,
+    .company-form select,
+    .company-form textarea {
+        font-size: 14px;
+    }
+
+    .company-form button {
+        font-size: 14px;
+    }
+
+    .influencer-suggestions h2 {
+        font-size: 20px;
+    }
+
+    .influencer-card h3 {
+        font-size: 18px;
+    }
+
+    .influencer-card p {
+        font-size: 14px;
+    }
+
+    .influencer-card button {
+        font-size: 14px;
+    }
+}

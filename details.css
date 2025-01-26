@@ -1,0 +1,295 @@
+
+/* start header */
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.login-link {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    justify-content: end;
+}
+.login-link:hover {
+    text-decoration: underline;
+}
+.login-icon {
+    margin-right: 5px;
+    padding-left: 10px;
+}
+/* end header */
+
+/* Influencer Details Page */
+.influencer-details {
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Influencer Header */
+.influencer-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.influencer-header img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.influencer-info h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #001F54; /* Dark blue text */
+}
+
+.influencer-info .expertise,
+.influencer-info .followers {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #007bff; /* Blue icons */
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Influencer Description */
+.influencer-description {
+    margin-bottom: 40px;
+}
+
+.influencer-description h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #001F54; /* Dark blue text */
+}
+
+.influencer-description p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Previous Collaborations */
+.previous-collaborations {
+    margin-bottom: 40px;
+}
+
+.previous-collaborations h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #001F54; /* Dark blue text */
+}
+
+.collaborations-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.collaboration-card {
+    text-align: center;
+}
+
+.collaboration-card img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.collaboration-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Contact Button */
+.contact-button {
+    text-align: center;
+}
+
+.contact-button .cta-button {
+    padding: 15px 30px;
+    background-color: #007bff; /* Blue button */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button .cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .influencer-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .influencer-header img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .influencer-info h1 {
+        font-size: 28px;
+    }
+
+    .influencer-info .expertise,
+    .influencer-info .followers {
+        font-size: 16px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .influencer-description h2,
+    .previous-collaborations h2 {
+        font-size: 20px;
+    }
+
+    .influencer-description p {
+        font-size: 14px;
+    }
+
+    .collaboration-card img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .collaboration-card p {
+        font-size: 14px;
+    }
+}
+
+
+/* start Footer Section */
+.footer {
+    background-color: #001F54; /* Dark blue background */
+    color: #ffffff; /* White text */
+    padding: 50px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ffffff; /* White text for headings */
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+    color: #e0e0e0; /* Light gray text for content */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li i {
+    margin-right: 10px;
+    color: #ffffff; /* White icons */
+}
+
+.footer-section a {
+    color: #e0e0e0; /* Light gray text for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #ffffff; /* White text on hover */
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #ffffff; /* White icons */
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #003366; /* Light blue border */
+    margin-top: 20px;
+    font-size: 14px;
+    color: #e0e0e0; /* Light gray text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 30px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+/* end Footer Section */.map {
+    margin-top: 50px;
+    width: 100%;
+}

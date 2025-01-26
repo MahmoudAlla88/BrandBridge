@@ -1,0 +1,407 @@
+
+/* start header */
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.login-link {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    justify-content: end;
+}
+.login-link:hover {
+    text-decoration: underline;
+}
+.login-icon {
+    margin-right: 5px;
+    padding-left: 10px;
+}
+/* end header */
+
+
+
+
+
+
+
+
+
+
+
+/* For Companies Page */
+.for-companies {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #001F54; /* Dark blue background */
+    color: #ffffff; /* White text */
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .cta-button {
+    padding: 15px 30px;
+    background-color: #007bff; /* Blue button */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Benefits Section */
+.benefits {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #001F54; /* Dark blue text */
+}
+
+.benefits-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.benefit-card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.benefit-card i {
+    font-size: 40px;
+    color: #007bff; /* Blue icons */
+    margin-bottom: 15px;
+}
+
+.benefit-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #001F54; /* Dark blue text */
+}
+
+.benefit-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background */
+}
+
+.how-it-works h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #001F54; /* Dark blue text */
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.step {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.step i {
+    font-size: 40px;
+    color: #007bff; /* Blue icons */
+    margin-bottom: 15px;
+}
+
+.step h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #001F54; /* Dark blue text */
+}
+
+.step p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Success Stories Section */
+.success-stories {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.success-stories h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #001F54; /* Dark blue text */
+}
+
+.stories-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.story-card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.story-card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.story-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.story-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #001F54; /* Dark blue text */
+}
+
+.story-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Contact Form Section */
+.contact-form {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background */
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #001F54; /* Dark blue text */
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    background-color: #007bff; /* Blue button */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .benefit-card,
+    .step,
+    .story-card {
+        width: 100%;
+    }
+
+    .steps {
+        flex-direction: column;
+    }
+}
+
+
+
+/* start Footer Section */
+.footer {
+    background-color: #001F54; /* Dark blue background */
+    color: #ffffff; /* White text */
+    padding: 50px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ffffff; /* White text for headings */
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+    color: #e0e0e0; /* Light gray text for content */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li i {
+    margin-right: 10px;
+    color: #ffffff; /* White icons */
+}
+
+.footer-section a {
+    color: #e0e0e0; /* Light gray text for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #ffffff; /* White text on hover */
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #ffffff; /* White icons */
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #003366; /* Light blue border */
+    margin-top: 20px;
+    font-size: 14px;
+    color: #e0e0e0; /* Light gray text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 30px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+/* end Footer Section */.map {
+    margin-top: 50px;
+    width: 100%;
+}

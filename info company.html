@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info</title>
+    <link rel="stylesheet" href="info company.css">
+</head>
+<body>
+    <!-- Company Info Page -->
+<section class="company-info">
+    <h1>Company Information</h1>
+    <p>Please provide your company details to help us find the best influencers for your campaigns.</p>
+
+    <!-- Company Info Form -->
+    <form class="company-form">
+        <div class="form-group">
+            <label for="company-name">Company Name</label>
+            <input type="text" id="company-name" placeholder="Enter your company name" required>
+        </div>
+        <div class="form-group">
+            <label for="industry">Industry</label>
+            <select id="industry" required>
+                <option value="">Select your industry</option>
+                <option value="fashion">Fashion</option>
+                <option value="beauty">Beauty</option>
+                <option value="tech">Technology</option>
+                <option value="food">Food & Beverage</option>
+                <option value="travel">Travel</option>
+                <option value="fitness">Fitness</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="products">Products/Services</label>
+            <textarea id="products" rows="5" placeholder="Describe your products or services" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="budget">Campaign Budget</label>
+            <input type="number" id="budget" placeholder="Enter your campaign budget (USD)" required>
+        </div>
+        <div class="form-group">
+            <label for="target-audience">Target Audience</label>
+            <input type="text" id="target-audience" placeholder="Describe your target audience" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Influencer Suggestions (Hidden by Default) -->
+    <div class="influencer-suggestions" id="influencerSuggestions">
+        <h2>Suggested Influencers</h2>
+        <div class="suggestions-grid">
+            <!-- Influencer 1 -->
+            <div class="influencer-card">
+                <img src="https://via.placeholder.com/100" alt="Influencer 1">
+                <h3>John Doe</h3>
+                <p>Expertise: Fashion</p>
+                <p>Followers: 1M+</p>
+                <button>Contact</button>
+            </div>
+            <!-- Influencer 2 -->
+            <div class="influencer-card">
+                <img src="https://via.placeholder.com/100" alt="Influencer 2">
+                <h3>Jane Smith</h3>
+                <p>Expertise: Beauty</p>
+                <p>Followers: 500K+</p>
+                <button>Contact</button>
+            </div>
+            <!-- Influencer 3 -->
+            <div class="influencer-card">
+                <img src="https://via.placeholder.com/100" alt="Influencer 3">
+                <h3>Mike Johnson</h3>
+                <p>Expertise: Fitness</p>
+                <p>Followers: 2M+</p>
+                <button>Contact</button>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
